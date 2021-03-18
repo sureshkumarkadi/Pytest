@@ -7,48 +7,9 @@ import allure
 #from allure_commons.types import AttachmentType
 import pytest_html_reporter
 
-# Getting Current working Folder
-#dir_path = os.path.dirname(os.path.realpath(__file__))
-#print(dir_path)
-##
-### dir_path1 = os.getcwd()
-### print(dir_path1)
-##
-### dir_syspath =sys.path()
-### print(dir_path)
-##
-#folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
-#print(folder_path)
-##
-##sys.path.insert(0, folder_path + "/Syslibrary")
-##sys.path.insert(0, folder_path + "/Library")
-##
-#sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-#from Syslibrary.datadriver import readjson
-##
-##jsonread1 = readjson()
-##
-###from Library.RestAPI import rr_logging_api
-##
-###requests1 = rr_logging_api()
-###from Library.test_mysql_conn import get_conn
-# import os.path
-# test = os.path.dirname('D:\projecrdemo')
-# print(test)
 
-
-# dir_path = os.pardir
-#dir_path = os.getcwd()
-#print(dir_path)
 import time
 
-# folder_path=os.path.abspath(os.path.join(dir_path, os.pardir))
-#folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
-#print(folder_path)
-
-#sys.path.insert(0, folder_path + '\Library')
-# sys.path.append(dir_path+'\Library')
-# sys.path.append(dir_path+'\Env')
 dir_path = os.path.dirname(os.path.realpath(__file__))
 print(dir_path)
 
