@@ -1,0 +1,1 @@
+pytest -m "regression" --html=report.html D:\projectdemo\Testscripts
