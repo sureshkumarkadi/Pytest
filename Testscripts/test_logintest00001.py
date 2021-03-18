@@ -11,7 +11,7 @@ import pytest_html_reporter
 import time
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-#print(dir_path)
+print(dir_path)
 
 folder_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 print(folder_path)
